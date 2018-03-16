@@ -2,7 +2,7 @@
   <img src="https://blockterms.com/blockterms.png" width="225px;">
 </p>
 
-<h1 align="center">blockterms Whitepaper</h1>
+<h1 align="center">Whitepaper</h1>
 
 <p align="center">
   <a href="https://blockterms.com">blockterms:Collective Structures for Digital Currency</a>.
@@ -164,7 +164,7 @@ flat fees, the flat fees is ignored.
 |percentage|A percentage of the transaction amount will be paid to the partner.|
 
 
-#### Percentage Partnership per transaction with limits  
+#### Percentage Partnership per transaction with limits
 
 A percentage of transaction is paid to the partner per transaction with a maximum upper limit set per 
 day or per week or per month etc.
