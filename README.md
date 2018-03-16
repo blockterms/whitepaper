@@ -5,7 +5,7 @@
 <h1 align="center">blockterms Whitepaper</h1>
 
 <p align="center">
-  Whitepaper explaining <a href="https://blockterms.com">blockterms:Collective Structures for Digital Currency</a>.
+  <a href="https://blockterms.com">blockterms:Collective Structures for Digital Currency</a>.
 </p>
 
 <p align="center">
@@ -32,9 +32,9 @@
 - [Accrual of smaller amounts](#accrual-of-smaller-amounts)
 
 
-##Terminology
+## Terminology
 
-####Digital Assets
+#### Digital Assets
 
 "Digital Assets" are also called a "crypto coins", "crypto tokens", "crypto currency," 
 "virtual currency", or "digital currency". Most of these assets are based on cryptographic protocol 
@@ -76,7 +76,7 @@ controls the contents of the data store. blockchain is one implementation of Dis
 technology.
 
 
-##Introduction
+## Introduction
 
 **blockterms: Collective Structures for Digital Currency**
 
@@ -110,7 +110,7 @@ Settlement Algorithm executes the terms and ensures the partners get their share
 Settlement algorithms can be open sourced or closed.
 
 
-##Partnership Address
+## Partnership Address
 
 Partnership addresses are generated for a given currency. A visual representation for a public partnership 
 address can be obtained going to url 
@@ -131,9 +131,9 @@ was established on blockchain since the year 2018
 This image visual can be linked to from different marketing material for the product or service offered 
 at this partnership address.
  
-##Common types of Partnerships
+## Common types of Partnerships
 
-####Flat Fees Partnership per transaction  
+#### Flat Fees Partnership per transaction  
 
 A flat fees is paid to the partner per transaction. If the value in the transaction is greater than the 
 flat fees, the flat fees is ignored.
@@ -143,7 +143,7 @@ flat fees, the flat fees is ignored.
 |fees|A flat fees is paid to the partner per transaction.|
   
 
-####Flat Fees Partnership per transaction with limits
+#### Flat Fees Partnership per transaction with limits
 
   A flat fee is paid to the partner per transaction with a maximum upper limit set per day or per 
   week or per month etc or a overall upper limit.
@@ -155,15 +155,16 @@ flat fees, the flat fees is ignored.
 |timely_frequency|daily, weekly, monthly, every N days|
 |max_upper_limit|This is the total maximum amount that will ever be transferred to this partner. After that point the partnership ends.|
   
-####Percentage Partnership per transaction
+#### Percentage Partnership per transaction
    
    A percentage of the transaction amount will be paid to the partner. Sum of all percentages should add up to 100%
   
 |Parameter|Description|
 |:----|:----|
 |percentage|A percentage of the transaction amount will be paid to the partner.|
-  
-####Percentage Partnership per transaction with limits.  
+
+
+#### Percentage Partnership per transaction with limits  
 
 A percentage of transaction is paid to the partner per transaction with a maximum upper limit set per 
 day or per week or per month etc.
@@ -178,7 +179,7 @@ day or per week or per month etc.
 
 Once this percentage partnership ends, proportional increase for other percentage partners or this funds get collected to specific addresses
 
-####Time Varying Flat Fees Partnership
+#### Time Varying Flat Fees Partnership
 
   In a Time varying flat fees partnership, the fees increases or decreases depending on a 
   simple/compound interest rate. This partnership can have timely limits or overall limit. 
@@ -187,17 +188,17 @@ Once this percentage partnership ends, proportional increase for other percentag
 
    This kind of partnership is a good candidate to raise investment or funding for short term projects.
 
-####Time Varying Percentage Partnership
+#### Time Varying Percentage Partnership
 
   Similar to above. Instead of flat fees, partner gets the percentage of transaction.
 
-####Runtime partnerships
+#### Runtime partnerships
 
   Runtime Partnerships depend on runtime information available in every transaction in transaction 
   attributes. Settlement algorithms parse the transaction attributes to make dynamic decision on the ownership 
   share of each partner.
 
-####Complex Partnerships
+#### Complex Partnerships
 
    Complex partnerships depend on external data like performance of partners for the duration of 
    settlement.
@@ -223,7 +224,7 @@ information on the blockchain interoperable with other emerging systems in distr
 
 For slightly more complex ownership structures, the data structure would also involve conditional statements as parameters.
 
-##Settlement Algorithm
+## Settlement Algorithm
 
 Every partnership address pairs with a settlement algorithm which executes the terms of the partnership.
 It should be possible to standardize settlement algorithms for most common use cases and allow 
@@ -240,24 +241,24 @@ Some examples of simpler systems are.
 
 * A book author partners with a website/mobile app to sell their new book at a flat fee based partnership. 
 This also applies to other kinds of products promoted on websites/television media like games, apps, 
-movies, manufactured products.
+movies, manufactured products.
 * A small investor can partner with an artist/craftsman to upfront some investment in exchange for a 
-time limited percentage partnership on sales of the creative work.
+time limited percentage partnership on sales of the creative work.
 * A partnership of a small team with cross sectional skills. e.g., a group of skilled professionals 
 could agree on a percentage terms for a small project they do together like a documentary crew or 
-a volunteer medical team or short term advertising campaigners etc.
+a volunteer medical team or short term advertising campaigners etc.
 	
 In all these cases, the terms of partnership are relatively simple and depend on fewer parameters. If there are 
 funds in the partnership address, the account will be settled according to the pre determined terms. 
 
 In some other cases, runtime parameters are sent as part of the transaction using extra information in 
-the transaction via transaction attributes.The extra information could be simple name value pairs like cookies
+the transaction via transaction attributes. The extra information could be simple name value pairs like cookies
 or http parameters.  
 
 In certain complex use cases of real world scenarios, instead of moving the data towards a settlement algorithm, it would be
 lot easier to move the settlement algorithm towards the data.
 
-Some examples of such complex systems are
+Some examples of such complex systems are
 
 * How to fairly distribute funds among members of a winning football team?. 
 * How to fairly distribute funds among contributing members of an open source software/hardware/design project?
@@ -271,7 +272,7 @@ feasibility of an implementable settlement system.
 
 ![Settlement System](images/settlement.svg)
 
-##Transaction Attributes
+## Transaction Attributes
 
 Transaction Attributes can be sent along with a payment transaction. This extra information is used 
 by settlement algorithms to execute the terms of partnership which need context data to make decisions.
@@ -288,7 +289,7 @@ these two parties.
 
 >https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman
 
-##Partnership Economy
+## Partnership Economy
 
 Blockchain is often described as internet of value. Blockterms leverages the potential of blockchain 
 to deliver a digital partnership economy.
@@ -311,7 +312,7 @@ reduce prices to make price efficient economic modules.
 
 ![Modules](images/module.svg)
 
-##Ownership of Partnership Address
+## Ownership of Partnership Address
 
 Who ever owns the edittoken, owns the access to edit the partnership. The keys to the partnership 
 address are owned by blockterms. These keys are only used to sign transactions offline and submitted to 
@@ -324,7 +325,7 @@ It may be possible to build a multi signature system where multiple partners hav
 change in the partnership information. This will eliminate the need for edittokens.
 
 
-##Settlement Frequency
+## Settlement Frequency
 
 The minimum is block level. Everytime a new block is created for the currency, that block is inspected 
 for partnership addresses and the transactions are settled.
@@ -335,7 +336,7 @@ actually transferring funds.
 
 In currencies that do not have blocks it may be possible to have a transaction level settlement.
 
-##Accrual of smaller amounts
+## Accrual of smaller amounts
 
 After every settlement, if the share of a partner is below a very small threshold value, these amounts 
 are accrued in the partnership address and transfer of the funds are withheld until their sum adds up to 
