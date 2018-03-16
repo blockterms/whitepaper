@@ -5,7 +5,7 @@
 <h1 align="center">Whitepaper</h1>
 
 <p align="center">
-  <a href="https://blockterms.com">blockterms:Collective Structures for Digital Currency</a>.
+  <a href="https://blockterms.com">blockterms: Collective Structures for Digital Currency</a>.
 </p>
 
 <p align="center">
@@ -36,13 +36,13 @@
 
 #### Digital Assets
 
-"Digital Assets" are also called a "crypto coins", "crypto tokens", "crypto currency," 
+"Digital Assets" are also called "crypto coins", "crypto tokens", "crypto currency," 
 "virtual currency", or "digital currency". Most of these assets are based on cryptographic protocol 
-of a computer network that may be centralized or decentralized, closed or open-source.
+of a computer network that may be centralized or decentralized and closed or open-source.
 
-In this paper Digital assets represent assets that are used as a medium of exchange and/or store of value.
+In this paper, Digital assets represent assets that are used as a medium of exchange and/or a store of value.
 
-Popular examples of digital assets are bitcoin, ether, miota, neo and ripple. As of 2018 there are 
+Popular examples of digital assets are bitcoin, ether, miota, neo and ripple among many others. As of 2018, there are 
 over 1300 known crypto currencies. All of the assets issued by these currencies are considered 
 Digital assets.
 
@@ -177,7 +177,7 @@ day or per week or per month etc.
 |timely_frequency|daily, weekly, monthly, every N days|
 |max_upper_limit|This is the total maximum amount that will ever be transferred to this partner. After that point the partnership ends.|
 
-Once this percentage partnership ends, proportional increase for other percentage partners or this funds get collected to specific addresses
+Once this percentage partnership ends, proportional increase for other percentage partners or this funds get collected to specific addresses.
 
 #### Time Varying Flat Fees Partnership
 
@@ -190,7 +190,7 @@ Once this percentage partnership ends, proportional increase for other percentag
 
 #### Time Varying Percentage Partnership
 
-  Similar to above. Instead of flat fees, partner gets the percentage of transaction.
+  Similar to above. Instead of flat fees, partner gets a percentage of transaction.
 
 #### Runtime partnerships
 
@@ -255,8 +255,8 @@ In some other cases, runtime parameters are sent as part of the transaction usin
 the transaction via transaction attributes. The extra information could be simple name value pairs like cookies
 or http parameters.  
 
-In certain complex use cases of real world scenarios, instead of moving the data towards a settlement algorithm, it would be
-lot easier to move the settlement algorithm towards the data.
+In certain complex use cases of real world scenarios, instead of moving the data near a settlement algorithm, it would be
+lot easier to move the settlement algorithm near the data.
 
 Some examples of such complex systems are
 
@@ -308,7 +308,7 @@ and so on. All of these structures can be linked together using urls to these ad
 
 Pyramid is a bad word to use in finance but these digital sky scrappers allow us to inspect pricing of 
 common goods and services offered in the market place and debug for what components can be improved to 
-reduce prices to make price efficient economic modules.
+reduce prices and make price efficient economic modules.
 
 ![Modules](images/module.svg)
 
