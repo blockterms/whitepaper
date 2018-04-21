@@ -390,6 +390,9 @@ blockterms opens up a new model of localized finance for infrastructure.
 
 Raise funds for a road or bridge from local community and create an ownership structure. Build the bridge and then the owners get paid back in micro transaction accruals for every time someone pays for the use of infrastructure.
 
+One other simple use case for this model is a smart parking meter. A smart parking meter would require multiple parties to come-together, e.g. the city, the local community, the company that produces and services the machines and the consumer. Every time a consumer uses this machine, all these partners need to get their share of value. The terms for their partnership need to be adjusted and revised from time to time. blockterms provides the tools necessary to make it happen. Such kind of public-private ownership of community resources is made easy by crypto currencies and blockterms plays a small part in that.
+At any given time, a consumer can inspect the entire tree of partners who collaborated together to bring this setup into their community.
+
 ### Education
 
 Teachers, schools and universities should be a financial partner in student’s future success. The partnership value should diminish with time and should have appropriate maximum life time limits per student. In this model, the earnings of schools and universities are directly derived from future financial success of their students, this is a great incentive for educational institutions to provide good quality education and bring the best out of every student instead of providing generic same education for everyone. 
@@ -400,7 +403,7 @@ The current model of financing for primary education is provided by governments 
 
 For higher education, financial institutions let students borrow from their future but the model for what is the fair current cost of education is very difficult to derive mathematically.
 
-blockterms provides a framework for a decentralized financial model where every student has an individual blockterms payment address with ownership structure consisting of all educators and educational institutions relevant to the student. A percentage of future earnings from student's paycheck goes into paying for this service offered.
+blockterms provides a framework for a decentralized financial model where every student has an individual blockterms payment address with ownership structure consisting of all educators and educational institutions relevant to the student. A percentage of future earnings from current student's future paycheck goes into paying for this service offered.
 
 ### Modern technology services
 
@@ -412,7 +415,9 @@ blockterms creates a finance model for car companies to directly partner with a 
 
 ## Final note
 
-Finally a note about a concept called karma, which means action. According to eastern spirituality, the universe does a _high precision floating point arithmetic_ to keep track of every one’s KARMA, both positive and negative until it adds up to a sizable amount and then comes around and manifests into reality in form of life events. This is a reason to _bGood_ variable in this world.
+Finally a note about a concept called karma, which means action. According to eastern spirituality, the universe does a _high precision floating point arithmetic_ to keep track of every one’s KARMA, both positive and negative until it adds up to a sizable amount and then comes around and manifests into reality in form of life events. 
+
+This is a reason to _bGood_ variable in this world.
 
 This is similar to what blockterms intends to do with financial transactions and the universal computer i.e the blockchain.
 
