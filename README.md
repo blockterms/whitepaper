@@ -5,7 +5,7 @@
 <h1 align="center">Whitepaper</h1>
 
 <p align="center">
-  <a href="https://blockterms.com">blockterms: Collective Structures for Digital Currency</a>.
+  <a href="https://blockterms.com"><h3>blockterms: Collective Structures for Digital Currency</h3></a>
 </p>
 
 Author: Anil Kumar <a href="mailto:yak@fastmail.com">yak@fastmail.com</a>.
@@ -36,6 +36,7 @@ Author: Anil Kumar <a href="mailto:yak@fastmail.com">yak@fastmail.com</a>.
     - [Ownership of Partnership Address](#ownership-of-partnership-address)
     - [Settlement Frequency](#settlement-frequency)
     - [Accrual of smaller amounts](#accrual-of-smaller-amounts)
+- [Ownership Transparency](#ownership-transparency)
 - [Partnership Economy](#partnership-economy)
 - [Real world Use cases](#real-world-use-cases)
     - [Online bookings](#online-bookings)
@@ -44,6 +45,7 @@ Author: Anil Kumar <a href="mailto:yak@fastmail.com">yak@fastmail.com</a>.
     - [Infrastructure](#infrastructure)
     - [Education](#education)
     - [Modern technology services](#modern-technology-services)
+    - [Dividends for ICOs](#dividends-for-icos)
 - [Final Note](#final-note)
 - [References](#references)
 
@@ -78,7 +80,7 @@ Distributed Ledger Technology or (DLT) is a digital system for recording transac
 
 **blockterms: Collective Structures for Digital Currency**
 
-blockterms enables multiple parties to form a digital currency payment address and define an ownership structure for how to settle funds in that address and how often. Consumers pay at the payment address in exchange for goods and services and all the parties involved in the ownership structure get their appropriate share of value in transaction or transactions.
+With blockterms, multiple parties can form a digital currency payment address and define an ownership structure for how to settle funds in that address and how often. Consumers pay at the payment address in exchange for goods and services and all the parties involved in the ownership structure get their appropriate share of value in transaction or transactions.
 
 To provide an example from gig economy, a community ride sharing app "AirLift" and individual driver can be partners on blockchain or distributed ledger via blockterms. These two partners can agree upon their ownership structure in a transaction depending on the most common implementable terms defined as follows.
 	
@@ -93,7 +95,7 @@ There are two important parts in the above partnership example.
 1. Ownership structure.  
 2. Settlement Algorithm. 
 
-Ownership structure determines the participants and their share of value in the incoming transaction/s  depending on agreed terms and conditions. Ownership structures can be public or private, stored privately or on public/private distributed ledger. 
+Ownership structure determines the participants and their share of value in incoming transactions  depending on agreed terms and conditions. Ownership structures can be public or private and stored privately or on public/private distributed ledger. 
 
 Settlement Algorithm executes the terms and ensures the partners get their share of the partnership. 
 Settlement algorithms can be open sourced or closed.
@@ -134,19 +136,19 @@ Text Reference [Monkeys reject unequal pay]
 
 Co-operation at this scale across geographical boundaries is challenging in so many ways. 
 
-When consumers pay for a product or service, they do not know where their money eventually goes to. Information about who owns this product, how this product came to be and how much of consumer payment goes to whom etc., is not tied to the price or sale of the product. Easy availability of such information to consumers is important to encourage universal moral standards for entities making financial arrangements.
+When consumers pay for a product or service, they do not know where their money eventually goes to. Information about who owns this product, how this product came to be and how much of consumer payment goes to whom etc., is not tied to price or sale of the product. Easy availability of such information to consumers is important to encourage universal moral standards for entities making financial arrangements.
 
-Biological perception of fairness drives consumer behavior. When people hear about bad working conditions in remote war torn countries or child labor in developing countries, it pushes them to choose alternative options that match their sense of fairness. Some examples are regulations around blood diamonds, poor working conditions in garment factories and ethical sourcing of food. 
+Perception of fairness drives consumer behavior. When people hear about bad working conditions in remote war torn countries or child labor in developing countries, it pushes them to choose alternative options that match their sense of fairness. Some examples are regulations around blood diamonds, poor working conditions in garment factories and ethical sourcing of food. 
 
 In the complete tree of cooperation for a product or service as shown in Fig 1, there are too many financial intermediaries to facilitate this scale of co-operation. Financial intermediaries provide useful services to nurture the financial arrangement but transaction fees for value transfer is so high that it impacts the price of product in marketplace. 
 
-Settlement is not timely. Cash flows from one entity to other entity after the accounting for the sales is complete at one end. This leaves certain entities in asymmetric financial relationships that are prone to moral hazard. This is a hurdle to forming easy financial relations with entities that a trustless settlement system like blockterms is trying to address.
+Settlement is not timely. Cash flows from one entity to other entity after accounting for  sales is complete at one end. This leaves certain entities in asymmetric financial relationships that are prone to moral hazard. This is a hurdle to forming easy financial relations with entities that a trustless settlement system like blockterms is trying to address.
 
 ## Solution
 
 ![solution](images/solution.png)
 
-In this paper, I will present how blockterms combines these three universal technologies and creates a network of value that brings a level of transparency to the existing model of commerce.
+In this paper, I will present how blockterms combines three universal technologies and creates a network of value that brings a new level of transparency to the existing model of commerce.
 
 Three universal technologies are
 1. Universal way of communication i.e internet
@@ -156,20 +158,20 @@ Three universal technologies are
 blockterms proposes three features.
 1. blockterms Partnership with ownership structure
 2. Trustless settlement
-3. Pricing transparency.
+3. Ownership transparency.
 
-blockterms Partnership is a financial arrangement among multiple entities with well defined share of how much each partner gets from the value of a transaction
+blockterms Partnership is a financial arrangement among multiple entities with well defined share of how much each partner gets from the value of a transaction.
 
 Trustless settlement is an automated way of splitting the value inside a financial transaction among its partners.
 
-Price transparency is provided by having a unique web page for a partnership and linking partnership addresses and its information across web pages on internet.
+Ownership transparency is provided by having a unique web page for a partnership and linking partnership addresses in the ownership structure with other partnerships and its information across web pages on internet.
 
 ## How does it work?
 
 It works in 3 steps
 1. Pick a currency, pick a blockchain and set ownership share of values of each partner in every transaction. This creates a unique digital asset address with a unique webpage for this partnership.
 2. Integrate this payment address in product or service and your payment service provider and accept payments.
-3. blockterms accrues tiny amounts of values for every partner in the partnership address ownership structure and settles funds among the partners.
+3. blockterms accrues tiny amounts of values for every partner in the partnership address ownership structure and settles funds among all the partners.
 
 ## blockterms Partnership
 
@@ -326,7 +328,7 @@ Transaction Attributes can be sent along with a payment transaction. This extra 
 
 Transaction Attributes will be part of the blockchian or distributed ledger. Clients that do not want this information public can send encrypted transaction attributes using shared keys.
 
-ECDH enables two parties, each with their own private and public key pair can generate a common shared key to be able to send and receive encrypted messages.
+ECDH allows two parties, each with their own private and public key pair can generate a common shared key to be able to send and receive encrypted messages.
 
 The payment sender makes an api call by passing a public key to a partnership address end point and get a shared key. Messages sent with this shared key between two parties can be decrypted only by these two parties.
 
@@ -345,6 +347,12 @@ In currencies that do not have blocks it may be possible to have a transaction l
 After every settlement, if the share of a partner is below a very small threshold value, these amounts are accrued in the partnership address and transfer of the funds are withheld until their sum adds up to a value above the threshold value. This is also true for settlement fees. 
 
 We batch many small amounts into one transaction. The threshold value is different for different currencies
+
+## Ownership transparency
+
+Consumers can browse through the partnership structures for the product or service they purchased and see where their money goes and how the product came to be. 
+
+![Ownership transparency](images/where.svg)
 
 ## Partnership Economy
 
@@ -366,7 +374,7 @@ Pyramid is a bad word to use in finance but these digital sky scrappers allow us
 
 An edittoken is generated and created when the partnership address is created. edittoken is optionally linked to email address. If a user forgets the edittoken a link to reset the edittoken is sent to the email address. 
 
-Who ever owns the edittoken, owns the access to edit the partnership. The keys to the partnership address are owned by blockterms. These keys are only used to sign transactions offline and submitted to the currency network. 
+Who ever owns the edittoken, owns the access to edit the partnership. The keys to the partnership address are owned by blockterms. These keys are only used to sign transactions offline and submit to the currency network. 
 
 It may be possible to build a multi signature system where multiple partners have to signoff to make a change in the partnership information. This will eliminate the need for edittokens. Community adoption drives such customized feature needs.
 
@@ -413,6 +421,10 @@ Car companies could derive more value out of their invention by financially part
 
 blockterms creates a finance model for car companies to directly partner with a ride sharing application and drivers to get a cut from every transaction. This model of financing helps the driver get into a productive venture with lesser capital and helps a car company derive more value out of their creation. 
 
+### Dividends for ICOs
+
+ICOs are a new form of raising capital from investors for an agreed amount of ownership. The same ownership structure can be used to distribute returns to investors in form of dividends. blockterms makes it easy to organize and manage an ownership structure and version it with time.
+
 ## Final note
 
 Finally a note about a concept called karma, which means action. According to eastern spirituality, the universe does a _high precision floating point arithmetic_ to keep track of every one’s KARMA, both positive and negative until it adds up to a sizable amount and then comes around and manifests into reality in form of life events. 
@@ -420,6 +432,8 @@ Finally a note about a concept called karma, which means action. According to ea
 This is a reason to _bGood_ variable in this world.
 
 This is similar to what blockterms intends to do with financial transactions and the universal computer i.e the blockchain.
+
+
 
 ## References
 
