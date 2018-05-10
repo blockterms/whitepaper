@@ -31,6 +31,7 @@ Author: Anil Kumar <a href="mailto:yak@fastmail.com">yak@fastmail.com</a>.
     - [Common types of Partnerships](#common-types-of-partnerships)
     - [Partnership Address](#partnership-address)
     - [Ownership Structure](#ownership-structure)
+        - [Tokens and Ownership Structure](#tokens-and-ownership-structure)
     - [Settlement Algorithm](#settlement-algorithm)
     - [Transaction Attributes](#transaction-attributes)
     - [Ownership of Partnership Address](#ownership-of-partnership-address)
@@ -286,6 +287,10 @@ The format of the data could be slightly different depending on the underlying b
 For slightly more complex ownership structures, the data structure would also involve conditional statements as parameters.
 
 For dynamic runtime partnerships, a python function can generate the ownership structure at runtime.
+
+#### Tokens and Ownership Structure
+
+For a network or system with utility tokens, You can derive ownership structure automatically from the share of tokens each address owns. With blockterms you can create one partnership address with this ownership structure and distribute dividends for all the owners.
 
 ### Settlement Algorithm
 
