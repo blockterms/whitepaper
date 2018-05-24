@@ -184,6 +184,8 @@ Two implementable goals of blockterms partnership are
 
 2. The settlement of funds among partners should be automated.
 
+![Entity Tree](images/lemonade.svg)
+
 ## Common types of Partnerships
 
 #### Flat Fees Partnership per transaction  
@@ -458,6 +460,8 @@ This is similar to what blockterms intends to do with financial transactions and
 
 * https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman
 
+* Formalizing and Securing Relationships on Public Networks by Nick Szabo
+    * http://firstmonday.org/article/view/548/469
 
 [I, Pencil: My Family Tree as told to Leonard E. Read]: http://www.econlib.org/library/Essays/rdPncl1.html
 [Monkeys reject unequal pay]: http://www.emory.edu/LIVING_LINKS/publications/articles/Brosnan_deWaal_2003.pdf
