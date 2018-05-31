@@ -42,6 +42,7 @@ Author: Anil Kumar <a href="mailto:yak@fastmail.com">yak@fastmail.com</a>.
 - [Real world Use cases](#real-world-use-cases)
     - [Online bookings](#online-bookings)
     - [Real estate](#real-estate)
+    - [Home loans and Savings Accounts](#home-loans-and-savings-accounts)
     - [Content Creators](#content-creators)
     - [Infrastructure](#infrastructure)
     - [Education](#education)
@@ -143,7 +144,7 @@ Perception of fairness drives consumer behavior. When people hear about bad work
 
 In the complete tree of cooperation for a product or service as shown in Fig 1, there are too many financial intermediaries to facilitate this scale of co-operation. Financial intermediaries provide useful services to nurture the financial arrangement but transaction fees for value transfer is so high that it impacts the price of product in marketplace. 
 
-Settlement is not timely. Cash flows from one entity to other entity after accounting for  sales is complete at one end. This leaves certain entities in asymmetric financial relationships that are prone to moral hazard. This is a hurdle to forming easy financial relations with entities that a trustless settlement system like blockterms is trying to address.
+Settlement is not timely. Cash flows from one entity to other entity after accounting for sales is complete at one end. This leaves certain entities in asymmetric financial relationships that are prone to moral hazard. This is a hurdle to forming easy financial relations with entities that a trustless settlement system like blockterms is trying to address.
 
 ## Solution
 
@@ -281,7 +282,8 @@ Data Stored on blockchain for simple partnerships
 2. Currency of the Contract
 3. FlatFeestructure addr:val,addr:val......
 4. PartnershipStructure addr:val,addr:val......
-5. A Website Address where users can find more information
+5. LocationStructure addr:location,addr:location....
+6. A Website Address where users can find more information
 ```
 
 The format of the data could be slightly different depending on the underlying blockchain capabilities. The data should be serializable to json or xml very easily. Consistency and standardization of this format is very important to make blockterms information on the blockchain interoperable with other emerging systems in distributed ledger technology space.
@@ -393,6 +395,13 @@ A hotel owner and an online bookings company can partner with each other via blo
 ### Real estate
 A small group of investors fund a real estate project and create an ownership structure using blockterms. They get returns back from the project in monthly rents.
 
+### Home loans and Savings Accounts
+The current model of home purchase involves going to a trusted centralized authority like bank and seeking a loan payable back in X amount of years at a modest interest rate in form of monthly payments. The bank takes deposits from other savers who save their money in the bank in exchange for a smaller rate of return. In this model, the money from savers is going to the home loans via the middleman i.e the bank. Even though the savers did not directly benefit so much from the economic activity that happened with their money after their savings were deposited in the bank, this model worked well for so long. 
+
+Blockchain allows for improvement in this model. The Home loan from prospective home buyers can be broken down into 10,000 pieces of ownership with each person owning small chunk of the house mortgage loan. Blockterms makes it possible to easily form ownership structures like this. Every month when home owner pays the mortgage, blockterms splits the amount to the ownership structure proportionately. 
+
+This newer modal helps savers derive more value out of their savings.  
+
 ### Content Creators
 
 A small team of people with different skills can form a simple percentage partnership on blockterms and start creating value immediately. Whenever their work is used or there is a payment on the partnership address, all the partners get their share of value instantly. 
@@ -422,7 +431,7 @@ blockterms provides a framework for a decentralized financial model where every 
 
 ### Modern technology services
 
-Car companies spend a lot of effort in doing R&D to bring consumers the latest and greatest of their innovation. The designers and engineers spend countless hours perfecting their plans and ideas to make it better and safer for people to use the cars they make. And after that, they do a lot of financial engineering to make their invention affordable to wider consumer base. If the consumer buys this modern marvel and goes and robs a bank (figuratively) with a getaway car, the car companies do not get a cut in their share of the spoils. What kind of fairness is this?
+Car companies spend a lot of effort in doing R&D to bring consumers the latest and greatest of their innovation. The designers and engineers spend countless hours perfecting their plans and ideas to make it better and safer for people to use the cars they make. And after that, they do a lot of financial engineering to make their invention affordable to wider consumer base. If the consumer buys this modern marvel and goes and robs a bank (figuratively) with a getaway car, the car companies do not get a cut in spoils. What kind of fairness is this?
 
 Car companies could derive more value out of their invention by financially partnering with other enterprises that depend on their cars to conduct their business operations. One example is ride sharing apps.
 
