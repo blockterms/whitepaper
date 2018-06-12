@@ -8,7 +8,7 @@
   <a href="https://blockterms.com"><h3>blockterms: Collective Structures for Digital Currency</h3></a>
 </p>
 
-Author: Anil Kumar <a href="mailto:yak@fastmail.com">yak@fastmail.com</a>.
+Author: Anil Kumar <a href="mailto:yak@fastmail.com">yak@fastmail.com</a>
 
 <p align="center">
   <a href="https://github.com/blockterms/whitepaper/releases">
@@ -375,7 +375,7 @@ A variety of complex chains and pyramids are possible with payment addresses ins
 
 ![Molecules](images/molecules.svg)
 
-Pyramid is a bad word to use in finance but these digital sky scrappers allow us to inspect pricing of common goods and services offered in the market place and debug for what components can be improved to reduce prices and make price efficient economic modules.
+Pyramid is a bad word to use in finance but these digital skyscrapers allow us to inspect pricing of common goods and services offered in the market place and debug for what components can be improved to reduce prices and make price efficient economic modules.
 
 ![Modules](images/module.svg)
 
